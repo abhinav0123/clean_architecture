@@ -22,6 +22,6 @@ class AppRoutes {
   }
 
   static Map<String, Widget> routes = {
-    homeScreen: const HomeScreen(),
+    homeScreen: const HomeScreenWrapper(),
   };
 }
