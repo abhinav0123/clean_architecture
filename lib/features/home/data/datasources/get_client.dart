@@ -10,5 +10,10 @@ abstract class GetClient {
   factory GetClient(Dio dio) = _GetClient;
 
   @GET(ApiString.getposts)
-  Future<List<GetResponse>> getPosts();
+  Future<List<GetResponse>> getPosts(
+      // @Header('authorization') String authToken,
+      //   @Body() ReqModel body
+      // @Path("id") int id,
+
+      );
 }
